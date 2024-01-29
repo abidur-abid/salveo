@@ -12,7 +12,7 @@ import { IoMdContacts } from "react-icons/io";
 
 const Header = () => {
     return (
-        <header>
+        <header className="sticky top-0 bg-white">
             <div className="customContainer">
                 <div className="customRow">
                     <div className="customColumn">
