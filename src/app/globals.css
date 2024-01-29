@@ -7,6 +7,10 @@
 Header Section 
 *******************************************************************/
 
+.customContainer{
+  @apply max-w-7xl mx-auto
+}
+
 .customRow{
   @apply flex justify-between items-center
 }
@@ -22,4 +26,8 @@ Header Section
 .link{
   @apply font-semibold uppercase text-primaryColor px-4 py-2 rounded flex gap-1 items-center
   hover:bg-primaryColor hover:text-white 
+}
+.link2{
+  @apply font-semibold uppercase text-white flex gap-1 items-center
+
 }
